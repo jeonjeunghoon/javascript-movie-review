@@ -316,7 +316,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"$\": () => (/* binding */ $)\n/* harmony export */ });\nconst $ = (selector, baseElement = document) => baseElement.querySelector(selector);\n\n\n//# sourceURL=webpack://javascript-movie-review/./src/utils/dom.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"$\": () => (/* binding */ $)\n/* harmony export */ });\nconst $ = (selector, baseElement = document) => {\n    return baseElement.querySelector(selector);\n};\n\n\n//# sourceURL=webpack://javascript-movie-review/./src/utils/dom.ts?");
 
 /***/ }),
 
